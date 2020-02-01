@@ -9,7 +9,12 @@
   
  - *Habits page:*
    - List of habits;
-   - Add, Edit, Delete habits;
+   - Add button
+     - opens a popup where the habit information is entered
+     - the user can either save the habit or cancel
+   - Tapping on a habit opens the same popup as for *Add*
+     - the user can edit all the information
+   - Swiping (right) on a habit will ask the user to delete it
    
  - *Statistics page*, for each habit:
    - Number of marks;
