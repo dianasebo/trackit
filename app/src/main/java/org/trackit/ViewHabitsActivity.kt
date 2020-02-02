@@ -9,9 +9,6 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import androidx.databinding.ObservableArrayList
-import androidx.databinding.ObservableList
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.ItemTouchHelper
@@ -117,7 +114,7 @@ class HabitPopup(private val context: Context, private val habit: Habit = Habit(
 }
 
 class SwipeToDeleteHabit(context: Context, private val adapter: HabitAdapter) : ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.RIGHT) {
-    private val icon = ContextCompat.getDrawable(context, android.R.drawable.ic_menu_delete)!!
+    private val icon = ContextCompat.getDrawable(context, R.drawable.ic_delete)!!
 
     override fun onChildDraw(c: Canvas, recyclerView: RecyclerView, viewHolder: RecyclerView.ViewHolder, dX: Float, dY: Float, actionState: Int, isCurrentlyActive: Boolean ) {
         super.onChildDraw(c, recyclerView, viewHolder, dX, dY, actionState, isCurrentlyActive)

@@ -28,7 +28,7 @@
             android:focusable="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:srcCompat="@android:drawable/ic_menu_add" />
+            app:srcCompat="@drawable/ic_add" />
 
         <TextView
             android:id="@+id/tv_no_habits"
