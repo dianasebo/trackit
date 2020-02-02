@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TrackIt</string>
+    <string name="title_activity_view_habits">ViewHabitsActivity</string>
+    <string name="hello_world">Hello Square World!</string>
 </resources>
